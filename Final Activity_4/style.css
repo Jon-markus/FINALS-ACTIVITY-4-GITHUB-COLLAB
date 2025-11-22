@@ -54,7 +54,16 @@
     position: relative;
     justify-content: center;
     background-color: #F8F8F8;
+    opacity: 95%;
     width: 1239px;
     height: 857px;
     flex-shrink: 0;
+}
+
+.mini-cards {
+    position: absolute;
+    height: 445px;
+    width: 274px;
+    border-radius: 16px;
+    background-color: white;
 }
