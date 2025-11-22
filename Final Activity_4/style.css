@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "PopBold";
+    src: url('poppins.bold.ttf');
+}
+
+@font-face {
+    font-family: "PopBoldItalic";
+    src: url("poppins.bold-italic.ttf");
+}
+
+@font-face {
+    font-family: "Pop";
+    src: url("poppins.regular.ttf");
+}
+.header{
+    color: #000;
+    text-align: center;
+    font-family: "PopBold";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.plan{
+    color: #13B47A;
+    font-family: "PopBoldItalic";
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text{
+    text-align: center;
+}
+
+.bill{
+    text-align: center;
+}
+
+.body {
+    font-family: "Pop";
+    width: 1440px;
+    height: 1024px;
+}
+
+.card {
+    width: 1239px;
+    height: 857px;
+    flex-shrink: 0;
+}
