@@ -41,12 +41,19 @@
 }
 
 .body {
+    position: relative;
+    justify-content: center;
     font-family: "Pop";
-    width: 1440px;
-    height: 1024px;
+    background-color: black;
 }
 
 .card {
+    margin-left: 32px;
+    padding: 16px;
+    border-radius: 34px;
+    position: relative;
+    justify-content: center;
+    background-color: #F8F8F8;
     width: 1239px;
     height: 857px;
     flex-shrink: 0;
