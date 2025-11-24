@@ -44,26 +44,120 @@
     position: relative;
     justify-content: center;
     font-family: "Pop";
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 .card {
-    margin-left: 32px;
+    margin-left: 60px;
+    margin-top: 20px;
+    top: 15px;
+    left: 200px;
     padding: 16px;
     border-radius: 34px;
     position: relative;
     justify-content: center;
-    background-color: #F8F8F8;
+    background-color: rgb(220, 220, 220);
     opacity: 95%;
-    width: 1239px;
+    width: 1350px;
     height: 857px;
     flex-shrink: 0;
 }
-
-.mini-cards {
+.mini-card {
     position: absolute;
-    height: 445px;
+    height: 460px;
     width: 274px;
     border-radius: 16px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
+
+.mini-card:hover{
+    border: 2px solid #0f8d61;
+    background-color: rgb(246, 246, 246);
+    transition: 0.12s ease;
+}
+
+.card1 {
+    top: 320px;
+    left: 250px;
+}
+
+.card1_content {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 8%;
+}
+
+.card2 {
+    top: 320px;
+    left: 558px;
+}
+
+.card3 {
+    top: 320px;
+    left: 866px;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.content1 {
+    font-size: 35px;
+    text-align: left;
+}
+
+.content2 {
+    font-size: 15px;
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 33px;
+    padding-top: 20px;
+}
+
+.content1_1{
+    padding-left: 10px;
+}
+
+
+.btn {    
+    margin-top:10px;
+    padding: 10px 30px;
+    border: none;
+    background: transparent;
+    color: #13B47A;
+    font-family: "Pop";
+    font-size: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    color: #0f8d61;
+}
+
+.btn_1 {
+
+    background-color: #13B47A;
+    color: white;
+    padding: 20px 20px;
+    padding-top: 12px; 
+    padding-bottom: 12px;  
+    font-family: "Pop";
+    font-size: 12px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn_1:hover {
+    background-color: #0f8d61;
+}
+
+.learn{
+    padding-top: 10px;
+    padding-left: 110px;
+    font-size: 8px;
+    color: gray
+}
+
